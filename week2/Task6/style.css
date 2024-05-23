@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 24px;
+}
+#checkbox_Inp{
+    width: 20px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inner_todo{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    align-items: center;
+
+}
+.todo{
+    width: 90%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.todo_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid black;
+}
+.remove_btn{
+padding: 12px;
+border-radius: 6px;
+background-color: red;
+color: white;
+border: 1px solid white;
+}
+.done_btn{
+    padding: 12px;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    }
+.left{
+    display: flex;
+    gap: 6px;
+}
+.right{
+    display: flex;
+    gap: 6px;
+}
+.task_Inp{
+    width: 40%;
+padding: 12px;
+border-radius: 6px;
+}
+.add_Task{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+gap: 12px;
+    align-items: center;
+}
+.add_btn{
+    width: 10%;
+    padding: 12px;
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid white;
+}
+#message{
+    text-align: center;
+}
